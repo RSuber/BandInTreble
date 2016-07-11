@@ -21,8 +21,8 @@ module.exports = function(app) {
             ///Right side box on homepage
         $scope.musicianSelect = function() {
             console.log($scope.managers)
-                // $location.path('/available');
-            let logan = MusicFactory.getBandManager();
+                $location.path('/available');
+            // let logan = MusicFactory.getBandManager();
             console.log(logan);
 
         }
